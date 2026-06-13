@@ -6,7 +6,7 @@ from area_circulo import AreaCirculo
 # Caso correcto
 def test_area_correcta():
     resultado = AreaCirculo(5)
-    assert resultado == 100
+    assert resultado == M.pi * 25
 
 
 # Caso límite
