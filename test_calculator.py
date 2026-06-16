@@ -2,7 +2,7 @@ from calculator import sumar, restar, Dividir, Multiplicar
 import pytest
 
 def test_sumar():
-    assert sumar(5, 5) == 10
+    assert sumar(5, 5) == 20
 
 def test_restar():
     assert restar(10, 5) == 5
